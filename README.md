@@ -27,7 +27,8 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Cache Java and Maven Dependencies
-      uses: your-org/cache-java-maven-dependencies-action@v1
+      uses: PadmanabhanSaravanan/cache-deps@v1
+            
       with:
         java-version: '11'
         working-dir: '.'
